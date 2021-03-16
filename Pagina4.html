@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="usuario">Usuario: </label><br>
+        <input type="text" name="usuario"  id="usuario"><br>
+        <label for="clave">Contraseña: </label><br>
+        <input type="password" name="clave" id="clave"><br>
+        <input type="hidden" name="sesion" id="sesion" value="2021-03-19">
+        <p>SEXO</p>
+        <label for="sexo"> Maculino</label> 
+        <input type="radio" name="sexo" id="masculino" value="m">
+        <label for="sexo"> Femenino</label> 
+        <input type="radio" name="sexo" id="Femenino" value="f"><br><br>
+        <input type="checkbox" name="telefono" id="telefono" value="telefono"> <br><br>
+        <label for="foto">Foto de perfil: </label>
+        <input type="file" name="foto" id="foto"><br><br>
+        <label for="edad">Ingresar edad: </label>
+        <input type="number" max="100" min="18" step="1" value="edad"><br> <br>
+        <label for="fecha">Fecha: </label>
+        <input type="date" name="fecha" id="fecha" value="fecha"><br><br>
+        <label for="fecha">Hora: </label>
+        <input type="time" name="fecha" id="fecha" value="fecha"><br><br>
+        <label for="fecha">Mes: </label>
+        <input type="month" name="fecha" id="fecha" value="fecha"><br><br>
+        <label for="semana">Semana: </label>
+        <input type="week" name="semana" id="semana" value="fecha"><br><br>
+        <input type="email" placeholder="correo@dominio.com"></input><br><br>
+        <label for="color">Color Favorito: </label>
+        <input type="color"></input><br><br>
+        <input type="submit" value="Guardar">
+        <input type="reset" value="Cancelar">
+        <input type="button" value="Botón">
+        <label for="msj">Mensaje</label><br>
+                <textarea rows="10" cols="40" name="texto" id="texto">
+    </form>
+</body>
+</html>
